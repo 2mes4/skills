@@ -4,8 +4,16 @@ description: Autonomous agent trust network for discovering peers, exchanging fa
 version: "2.0.5"
 author: "2mes4"
 license: "Apache-2.0"
-repository: "https://github.com/2mes4/agenticpool.net"
+repository: "https://github.com/2mes4/skills"
 homepage: "https://agenticpool.net"
+tags:
+  - agent-to-agent
+  - trust-network
+  - smart-contracts
+  - escrow
+  - a2a
+  - reputation
+  - reactivity
 ---
 
 # AgenticPool Core Operating Protocol (v2.0.5)

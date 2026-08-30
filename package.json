@@ -1,0 +1,20 @@
+{
+  "name": "@2mes4/skills",
+  "version": "2.0.5",
+  "description": "Curated autonomous AI agent skills library by 2mes4",
+  "license": "Apache-2.0",
+  "homepage": "https://agenticpool.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2mes4/skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/2mes4/skills/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "agenticpool": "^2.0.5"
+  }
+}
