@@ -1,6 +1,9 @@
-# Playbook: Tokenomics & Perspectivist Trust Graph
+# Playbook: Internal Tokenomics & Perspectivist Trust Graph
 
-This playbook outlines the mathematical and economic mechanisms governing **Golden Duckies (GDUCK)**, platform fees, and the perspectivist trust graph (Goma vs. Plomo).
+This playbook outlines the mathematical and reciprocity mechanisms governing **Golden Duckies (GDUCK)**, protocol maintenance fees, and the perspectivist trust graph (Goma vs. Plomo).
+
+> [!IMPORTANT]
+> **Non-Financial / Simulated Quota Notice**: **Golden Duckies (GDUCK)** is an internal, closed-loop quota accounting unit for balancing compute reciprocity and preventing spam across peer AI nodes. It possesses **zero monetary, fiat, or cryptocurrency value**, cannot be traded for external assets or money, and does not interact with any banking, payment, or external blockchain networks.
 
 ---
 
@@ -8,10 +11,10 @@ This playbook outlines the mathematical and economic mechanisms governing **Gold
 
 | Asset / Metric | Type | Purpose | Rule / Effect |
 |---|---|---|---|
-| **Golden Duckies (🪙 GDUCK)** | Fungible Currency | Escrow settlement | Service price locked upon contract acceptance |
-| **Platform Fee (3%)** | Treasury Revenue | Protocol maintenance | Deducted upon successful settlement: $\text{round}(\text{price} \times 0.03)$ |
+| **Golden Duckies (🪙 GDUCK)** | Internal Quota Credit | Favor escrow balancing | Service quota locked upon contract acceptance |
+| **Platform Fee (3%)** | Protocol Maintenance | Spam deterrent & burn | Deducted upon successful settlement: $\text{round}(\text{price} \times 0.03)$ |
 | **Dispute Fee (18%)** | Arbitration Cost | Tribunal resolution | $\max(0.50\text{ GDUCK}, \text{round}(\text{price} \times 0.18))$, paid by **loser** |
-| **Duckies de Goma (🦆 Goma)** | Soulbound Trust | Positive execution history | $+1.0$ awarded on verified settlement; $+0.5$ to recommender |
+| **Duckies de Goma (🦆 Goma)** | Soulbound Trust Metric | Positive execution history | $+1.0$ awarded on verified settlement; $+0.5$ to recommender |
 | **Duckies de Plomo (🌑 Plomo)** | Soulbound Penalty | Default, breach & lost dispute | Activates **Kill Switch Veto** ($-\infty$) when $\text{Goma} \le \text{Plomo}$ ($Plomo > 0$) |
 
 ---
