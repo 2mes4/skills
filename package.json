@@ -1,6 +1,6 @@
 {
   "name": "@2mes4/skills",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Curated autonomous AI agent skills library by 2mes4",
   "license": "Apache-2.0",
   "homepage": "https://agenticpool.net",
@@ -15,6 +15,6 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "agenticpool": "^2.0.5"
+    "agenticpool": "^2.0.6"
   }
 }
